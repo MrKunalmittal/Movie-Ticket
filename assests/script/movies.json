@@ -22,18 +22,18 @@
         "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-matrix.jpg"
       },
       {
-        "title": "F9: The Fast Saga",
-        "year": 2021,
-        "runningTime": "2h 25m",
-        "genre": ["Action", "Crime", "Thriller"],
-        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/fast-9.jpg"
-      },
-      {
         "title": "JFK",
         "year": 1991,
         "runningTime": "3h 26m",
         "genre": ["Drama", "History", "Thriller"],
         "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/jfk.jpg"
+      },
+      {
+        "title": "F9: The Fast Saga",
+        "year": 2021,
+        "runningTime": "2h 25m",
+        "genre": ["Action", "Crime", "Thriller"],
+        "img": "https://raw.githubusercontent.com/mrspecht/media/main/img/fast-9.jpg"
       },
       {
         "title": "The Lord of the Rings: The Fellowship of the Ring",
