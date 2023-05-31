@@ -9,12 +9,13 @@
     --app-red-hover: #ff2846;
     --app-orange-text: #ff8e1c;
     --app-light-gray: #f9f9f9;
-    --app-white: #fff;   
+    --app-white: #fff;
 }
 
 body {
-    background-color:#191919;
+    background-color: #191919;
 }
+
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
@@ -23,7 +24,7 @@ body {
 /*-------------------Header---------------------*/
 
 header {
-    background-color:#282828;
+    background-color: #282828;
     margin: 15;
     height: 60px;
 }
@@ -36,11 +37,11 @@ header .flex {
 .title h1 {
     font-size: 29px;
     text-transform: uppercase;
-    color:var(--app-white);
+    color: var(--app-white);
     font-weight: 600;
     letter-spacing: 0.2px;
     line-height: 62px;
-    text-align:right ;
+    text-align: right;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
@@ -57,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:var(--app-white);
+    color: var(--app-white);
     font-size: 22px;
     font-weight: 500;
     text-decoration: none;
@@ -66,17 +67,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color:var(--app-orange);
+    color: var(--app-orange);
 }
 
-nav ul li + li {
+nav ul li+li {
     margin-left: 20px;
 }
+
 .fa-solid {
     font-weight: 800;
     line-height: 48px;
     font-size: 26px;
-    color:var(--app-orange);
+    color: var(--app-orange);
 }
 
 /*-------------------Controls---------------------*/
@@ -88,18 +90,20 @@ nav ul li + li {
     margin-top: 23px;
 }
 
-.movieInput,.cityInput {
+.movieInput,
+.cityInput {
     color: var(--app-white);
     height: 55px;
     padding: 10px 10px;
     margin-top: 50px;
     border-radius: 5px;
-    background-color:#2d2d2d;
+    background-color: #2d2d2d;
     font-size: 20px;
     border: 1px solid #000;
     transition: all 0.90s ease-in-out;
 }
-.movieInput{
+
+.movieInput {
     width: 590px;
     margin-left: 6px;
 }
@@ -119,19 +123,21 @@ nav ul li + li {
     box-shadow: rgba(0, 0, 0, 0.2);
     transition: all 0.25s ease-in-out;
     cursor: pointer;
-    background-color:var(--app-orange);
+    background-color: var(--app-orange);
     margin-top: 50px;
     margin-left: 8px;
 }
-.movieInput:hover{
+
+.movieInput:hover {
     border-color: var(--app-white);
 }
-.cityInput:hover{
+
+.cityInput:hover {
     border-color: var(--app-white);
 }
 
 .btn:hover {
-    background-color:#f75f08;
+    background-color: #f75f08;
 }
 
 /*------------------movies--------------------------*/
@@ -153,28 +159,30 @@ section {
     column-gap: 17px;
     row-gap: 32px;
 }
-  
-div h3 , div p {
+
+div h3,
+div p {
     color: var(--app-white);
-   margin-top: 8px;
-   margin-left: 18px;
-   letter-spacing: 0.5px;
-   font-weight: 600;
-   text-align: center;
+    margin-top: 8px;
+    margin-left: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    text-align: center;
 }
-  
+
 div img {
     height: 20rem;
     width: 20rem;
     margin-left: 15px;
     cursor: pointer;
     /* box-shadow: -1px 6px 16px 3px rgba(0,0,0,0.29); */
-    box-shadow: -1px 6px 25px 8px rgba(0,0,0,0.56);
+    box-shadow: -1px 6px 25px 8px rgba(0, 0, 0, 0.56);
 }
+
 div img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
     transition: transform 0.7s ease-in-out;
-    box-shadow: -1px 6px 25px 8px rgba(0,0,0,0.56);
+    box-shadow: -1px 6px 25px 8px rgba(0, 0, 0, 0.56);
 }
 
 /* ------------------Drop down for Cities--------------------------*/
@@ -206,7 +214,7 @@ div img:hover {
 /* ------------------Drop down for Movies--------------------------*/
 .movie-Results {
     position: absolute;
-    background-color:  #2d2d2d;
+    background-color: #2d2d2d;
     border-radius: 3px;
     margin-top: 5px;
     margin-left: 7px;
@@ -227,4 +235,3 @@ div img:hover {
     border: 1px solid #000;
     border-radius: 2px;
 }
-

@@ -2,4 +2,4 @@
 
 Movie Tickets using HTML, CSS, Javascript, JSON files and the fetch API.
 
-Click [here to book your ticket ]( https://mrkunalmittal.github.io/Movie-Ticket/).
+Click [to book your tickets ]( https://mrkunalmittal.github.io/Movie-Ticket/).
