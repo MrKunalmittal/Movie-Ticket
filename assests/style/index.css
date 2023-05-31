@@ -141,3 +141,90 @@ h2 {
     font-size: 25px;
 }
 
+/*----------------section------------------------------*/
+
+section {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 23.3%);
+    grid-template-rows: repeat(2);
+    column-gap: 17px;
+    row-gap: 32px;
+}
+  
+div h3 , div p {
+    color: var(--app-white);
+   margin-top: 8px;
+   margin-left: 18px;
+   letter-spacing: 0.5px;
+   font-weight: 600;
+   text-align: center;
+}
+  
+div img {
+    height: 20rem;
+    width: 20rem;
+    margin-left: 15px;
+    cursor: pointer;
+    /* box-shadow: -1px 6px 16px 3px rgba(0,0,0,0.29); */
+    box-shadow: -1px 6px 25px 8px rgba(0,0,0,0.56);
+}
+div img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.7s ease-in-out;
+    box-shadow: -1px 6px 25px 8px rgba(0,0,0,0.56);
+}
+
+/* ------------------Drop down for Cities--------------------------*/
+.city-Results {
+    position: absolute;
+    margin-left: 612px;
+    background-color: #2d2d2d;
+    border-radius: 3px;
+    margin-bottom: 490px;
+    margin-top: 5px;
+    width: 318px;
+}
+
+.city-Results a {
+    line-height: 42px;
+    color: #000;
+    padding: 0px 5px;
+    display: block;
+    font-size: bold;
+    color: #fff;
+}
+
+.city-Results a:hover {
+    background-color: var(--app-orange);
+    border: 1px solid #000;
+
+}
+
+/* ------------------Drop down for Movies--------------------------*/
+.movie-Results {
+    position: absolute;
+    background-color:  #2d2d2d;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 588px;
+}
+
+.movie-Results a {
+    line-height: 42px;
+    color: #000;
+    padding: 0px 5px;
+    display: block;
+    color: #fff;
+    font-size: bold;
+}
+
+.movie-Results a:hover {
+    background-color: var(--app-orange);
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
