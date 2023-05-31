@@ -1,0 +1,143 @@
+@import './reset.css';
+
+:root {
+    --app-dark-bg: #1a1d28;
+    --app-green: #33ab4e;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+    --app-red: #ff3c57;
+    --app-red-hover: #ff2846;
+    --app-orange-text: #ff8e1c;
+    --app-light-gray: #f9f9f9;
+    --app-white: #fff;   
+}
+
+body {
+    background-color:#191919;
+}
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+/*-------------------Header---------------------*/
+
+header {
+    background-color:#282828;
+    margin: 15;
+    height: 60px;
+}
+
+header .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    font-size: 29px;
+    text-transform: uppercase;
+    color:var(--app-white);
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 62px;
+    text-align:right ;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 62px;
+}
+
+nav ul li a {
+    color:var(--app-white);
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    transition: color 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color:var(--app-orange);
+}
+
+nav ul li + li {
+    margin-left: 20px;
+}
+.fa-solid {
+    font-weight: 800;
+    line-height: 48px;
+    font-size: 26px;
+    color:var(--app-orange);
+}
+
+/*-------------------Controls---------------------*/
+
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+
+.movieInput,.cityInput {
+    color: var(--app-white);
+    height: 55px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:#2d2d2d;
+    font-size: 20px;
+    border: 1px solid #000;
+    transition: all 0.90s ease-in-out;
+}
+.movieInput{
+    width: 590px;
+    margin-left: 6px;
+}
+
+.cityInput {
+    width: 320px;
+    margin-left: 15px;
+}
+
+.btn {
+    width: 140px;
+    height: 53px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    background-color:var(--app-orange);
+    margin-top: 50px;
+    margin-left: 8px;
+}
+.movieInput:hover{
+    border-color: var(--app-white);
+}
+.cityInput:hover{
+    border-color: var(--app-white);
+}
+
+.btn:hover {
+    background-color:#f75f08;
+}
+
+/*------------------movies--------------------------*/
+h2 {
+    color: white;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
